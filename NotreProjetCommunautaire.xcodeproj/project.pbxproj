@@ -12,6 +12,8 @@
 		B5204C921F941134001D2A08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5204C901F941134001D2A08 /* Main.storyboard */; };
 		B5204C941F941134001D2A08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5204C931F941134001D2A08 /* Assets.xcassets */; };
 		B5204C971F941134001D2A08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5204C951F941134001D2A08 /* LaunchScreen.storyboard */; };
+		B5204CA21F941175001D2A08 /* Alain.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5204CA11F941175001D2A08 /* Alain.xib */; };
+		B5204CA41F9412D2001D2A08 /* exil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5204CA31F941212001D2A08 /* exil.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B5204C931F941134001D2A08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5204C961F941134001D2A08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5204C981F941134001D2A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5204CA11F941175001D2A08 /* Alain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Alain.xib; sourceTree = "<group>"; };
+		B5204CA31F941212001D2A08 /* exil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = exil.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		B5204C8B1F941134001D2A08 /* NotreProjetCommunautaire */ = {
 			isa = PBXGroup;
 			children = (
+				B5204C9E1F941141001D2A08 /* Ressources */,
 				B5204C8C1F941134001D2A08 /* AppDelegate.swift */,
 				B5204C8E1F941134001D2A08 /* ViewController.swift */,
 				B5204C901F941134001D2A08 /* Main.storyboard */,
@@ -62,6 +67,31 @@
 				B5204C981F941134001D2A08 /* Info.plist */,
 			);
 			path = NotreProjetCommunautaire;
+			sourceTree = "<group>";
+		};
+		B5204C9E1F941141001D2A08 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				B5204CA01F941159001D2A08 /* LesViews */,
+				B5204C9F1F941150001D2A08 /* Images */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		B5204C9F1F941150001D2A08 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B5204CA31F941212001D2A08 /* exil.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		B5204CA01F941159001D2A08 /* LesViews */ = {
+			isa = PBXGroup;
+			children = (
+				B5204CA11F941175001D2A08 /* Alain.xib */,
+			);
+			path = LesViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,8 +154,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5204C971F941134001D2A08 /* LaunchScreen.storyboard in Resources */,
+				B5204CA41F9412D2001D2A08 /* exil.jpg in Resources */,
 				B5204C941F941134001D2A08 /* Assets.xcassets in Resources */,
 				B5204C921F941134001D2A08 /* Main.storyboard in Resources */,
+				B5204CA21F941175001D2A08 /* Alain.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
